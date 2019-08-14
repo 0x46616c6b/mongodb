@@ -9,7 +9,7 @@ source "$REPO_ROOT/hack/libbuild/common/kubedb_image.sh"
 
 DOCKER_REGISTRY=${DOCKER_REGISTRY:-kubedb}
 IMG=mongodb_exporter
-TAG=latest
+TAG=v1.1.0
 
 build() {
   pushd "$REPO_ROOT/hack/docker/mongodb_exporter/$TAG"
